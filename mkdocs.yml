@@ -1,0 +1,12 @@
+site_name: MinesweeperHQ Logic
+site_description: API reference and reasoning guide for a visible-clue Minesweeper solver.
+repo_url: https://github.com/jiankn/minesweeperhq-logic
+docs_dir: handbook
+site_dir: site
+theme:
+  name: mkdocs
+nav:
+  - Overview: index.md
+  - Quick start: quickstart.md
+  - API reference: reference.md
+  - Reasoning and limits: reasoning.md
