@@ -1,0 +1,16 @@
+{
+  "name": "minesweeperhq-logic",
+  "version": "0.1.0",
+  "description": "Small visible-clue Minesweeper constraint solver with explanation traces and bounded exact enumeration.",
+  "type": "module",
+  "exports": "./logic.mjs",
+  "bin": { "minesweeperhq-logic": "./cli.mjs" },
+  "files": ["logic.mjs", "cli.mjs", "README.md", "LICENSE", "examples/board.json"],
+  "scripts": { "test": "node --test test.mjs" },
+  "engines": { "node": ">=20" },
+  "license": "MIT",
+  "homepage": "https://minesweeperhq.com/solver/",
+  "repository": { "type": "git", "url": "git+https://github.com/jiankn/minesweeperhq-logic.git" },
+  "bugs": { "url": "https://github.com/jiankn/minesweeperhq-logic/issues" },
+  "keywords": ["minesweeper", "constraint-solver", "logic", "puzzle"]
+}
